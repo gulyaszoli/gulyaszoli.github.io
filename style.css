@@ -1,0 +1,28 @@
+.main {
+  font-family: 'Josefin Sans', sans-serif;
+}
+.header {
+  
+font-family: 'Abril Fatface', cursive;
+}
+
+blockquote {
+ 
+font-family: 'Abril Fatface', cursive;
+}
+ {
+  font-family: 'Merriweather', serif;
+}
+.main {
+  padding-left: 20%; 
+  width: 60%;
+  padding-right: 20%;
+}
+blockquote::before {
+  content: '„';
+ 
+  background-color: black;
+  color: white;
+  padding: 20px; 10px; 10px; 20px;
+  font-size: 20px;
+}
